@@ -47,3 +47,38 @@ opacity: 1;
     align-items: center;
     padding: 20px 0 0 0;
 }
+.contactUsfooter{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: .015em;
+    margin-right: 10px;
+    color: #1b9876 !important;
+}
+.contactUsfooterPolicitex{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: .015em;
+    color: #233 !important;
+    text-decoration: none;
+   
+}
+.contactUsfooteraddresstext{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: .015em;
+    color: #233 !important;
+    text-decoration: none;
+    margin:0 0 10px 0;
+}
