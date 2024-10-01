@@ -6,7 +6,7 @@ import style from "./Banner.module.css";
 const Banner = () => {
     return (
         <div>
-            <div>
+            <div className={style.bannerdiv}>
                 <div className='row'>
                     <div className='col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12'>
                         <div>
@@ -21,8 +21,8 @@ const Banner = () => {
                     </div>
                     <div className='col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12'>
                         <div>
-                            <div>
-                                <Image src={bannerimg} width={""} height={""} alt='banner-logo'/>
+                            <div className={style.bannerimgdiv}>
+                                <Image className={style.bannerimg} src={bannerimg} width={""} height={""} alt='banner-logo'/>
                             </div>
                         </div>
                     </div>
