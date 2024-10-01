@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Shared/Navigation/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Script from "next/script";
+import Footer from "@/components/Shared/Footer/Footer";
 // import { useEffect } from "react";
 
 
@@ -36,7 +37,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar />
         {children}
-
+        <Footer/>
 
 
         <Script
