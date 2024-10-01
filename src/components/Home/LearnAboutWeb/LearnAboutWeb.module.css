@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.learnfulldiv{
+  margin: 50px 0 40px 0;
+}
+.learntag{
+    margin-top: 123px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 93%;
+    text-align: center;
+    letter-spacing: -.04em;
+    color: #1b9876;
+    text-align: center;
+    margin: 40px 0;
+}
+.learnfullCarddiv{
+    display: flex;
+    justify-content: center;
+
+}
+.learnCarddiv{
+    display: grid;
+    place-items: center;
+    /* border:  solid gray; */
+    width: 700px;
+    padding: 27px 35px 27px 40px !important;
+    box-shadow: 0 -2px 41px #00000024;
+}
+.learnCardtag{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: .005em;
+    color: #1b9876;
+    padding-bottom: 25px;
+    margin: 0;
+}
+.learnCardInpdiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.learnCardinp{
+    width: 406px;
+    height: 43px;
+    background: #ececec;
+    border-radius: 30px;
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #37654e;
+    padding: 20px;
+    outline: none;
+}
+
+.learnCardbtn{
+    width: 120px;
+    height: 43px;
+    margin: 0;
+    color: #fff;
+    background: #223333;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0 0 7px 1px #23564a;
+    border-radius: 30px;
+}
+.learnCardbtn:hover{
+    background: #009650;
+    color: #fff;
+    border: 2px solid #a8a8a8;
+   
+}
+.learnCardparagraph{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #7c7c7c;
+    margin-left: 23px;
+    margin: 20px 0 0 40px;
+    display: flex;
+    justify-content: center;
+
+}
