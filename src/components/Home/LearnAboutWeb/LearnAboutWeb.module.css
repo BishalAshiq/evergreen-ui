@@ -26,7 +26,7 @@
     place-items: center;
     /* border:  solid gray; */
     width: 700px;
-    padding: 27px 35px 27px 40px !important;
+    padding: 27px 35px 27px 40px;
     box-shadow: 0 -2px 41px #00000024;
 }
 .learnCardtag{
@@ -134,4 +134,41 @@
 }
 .learnparaCardtwospan{
     color: rgb(27, 152, 118);
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .learnCarddiv{
+        display: grid;
+        place-items: center;
+        /* border: solid gray; */
+        width: 700px;
+        padding: 19px 11px 18px 11px !important;
+        box-shadow: 0 -2px 41px #00000024;
+    }
+  .learnCardinp{
+    width: 234px;
+  }
+  .learnCardparagraph{
+    margin: 10px 0 0 0;
+  }
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1370px) {
+ 
 }

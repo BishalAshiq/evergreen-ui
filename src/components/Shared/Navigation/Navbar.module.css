@@ -10,7 +10,7 @@
   padding: 10px 0 0 0 ;
 }
 .hrdiv{
-    width: 1030px !important;
+    width: 455px !important;
     /* border: 1px solid gray; */
     /* padding:0 0 12px 0; */
 
@@ -104,12 +104,12 @@ border-radius: 20px;
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
+@media only screen and (min-width: 1370px) {
     .hrdiv{
-        width: 1030px;
+        width: 1030px !important;
         /* border: 1px solid gray; */
         /* padding:0 0 12px 0; */
     
     }
+  
 }
